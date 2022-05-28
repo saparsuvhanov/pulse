@@ -6,6 +6,13 @@
     .advantages {
         min-height: 410px;
     }
+    .consultation {
+        min-height: 600px;
+        padding: 70px 30px 80px 30px;
+    }
+    .title_left {
+        font-size: 32px;
+    }
 }
 @media (max-width: 767px) {
     .promo {
@@ -51,6 +58,25 @@
         &__descr {
             padding: 0 5px 0 5px;
         }
+    }
+    .title_left {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .consultation {
+        min-height: 500px;
+        &__descr {
+            font-size: 15px;
+            line-height: 20px;
+        }
+    }
+    .feed-form {
+        input {
+            height: 47px;
+        }
+    }
+    .button_submit {
+        height: 51px;
     }
 }
 
@@ -124,5 +150,26 @@
             margin-top: 15px;
             max-width: 255px;
         }
+    }
+    .title_left {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .consultation {
+        min-height: 380px;
+        padding: 40px 10px 40px 15px;
+        &__descr {
+            font-size: 13px;
+            line-height: 15px;
+        }
+    }
+    .feed-form {
+        width: 261px;
+        input {
+            height: 39px;
+        }
+    }
+    .button_submit {
+        font-size: 14px;
     }
 }
