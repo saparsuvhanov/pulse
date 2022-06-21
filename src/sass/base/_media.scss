@@ -246,7 +246,7 @@
         }
     }
     .button_submit {
-        font-size: 14px;
+        font-size: 13px;
     }
     .carousel__img {
         img {
@@ -274,6 +274,10 @@
             }
             &__price {
                 font-size: 15px;
+            }
+            &__descr {
+                font-size: 12px;
+                line-height: 21px;
             }
         }
     }
@@ -307,6 +311,28 @@
             }
         }
     }
+    .modal {
+        width: 275px;
+        min-height: 350px;
+        &__close {
+            right: -18px;
+            font-size: 21px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            line-height: 14px;
+        }
+        &__descr {
+            font-size: 11px;
+            line-height: 11px;
+        }
+    }
+    .feed-form {
+        &_mt25 {
+            width: 220px;
+        }
+    }
+
 }
 @media (max-width:388px) {
     .catalog {
